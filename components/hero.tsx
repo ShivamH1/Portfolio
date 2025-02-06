@@ -19,13 +19,17 @@ export function Hero() {
             </p>
             <div className="mt-10 flex gap-4">
               <Link
-                href="#"
+                href="https://github.com/ShivamH1"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-semibold transition-colors bg-zinc-800 hover:bg-zinc-700"
               >
                 GitHub
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/shivam-honrao/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-2.5 rounded-full text-sm font-semibold transition-colors bg-blue-500 hover:bg-blue-600"
               >
                 LinkedIn
