@@ -14,6 +14,7 @@ export function ThemeSwitcher() {
   if (!mounted) return null
 
   return (
+    <></>
     // <Button
     //   variant="ghost"
     //   size="icon"
