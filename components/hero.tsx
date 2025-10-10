@@ -1,21 +1,29 @@
-import Image from "next/image"
-import Link from "next/link"
-import { MapPin } from "lucide-react"
-import { BounceArrow } from "./bounce-arrow"
+import Image from "next/image";
+import Link from "next/link";
+import { MapPin } from "lucide-react";
+import { BounceArrow } from "./bounce-arrow";
 
 export function Hero() {
   return (
-    <section id="home" className="relative min-h-screen pt-24 pb-12 px-6 lg:px-8">
+    <section
+      id="home"
+      className="relative min-h-screen pt-24 pb-12 px-6 lg:px-8"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-blue-400 via-blue-500 to-violet-500 bg-clip-text text-transparent">
               Shivam Sanjay Honrao
             </h1>
-            <h2 className="text-3xl font-bold text-blue-500 mt-4">Full Stack Developer</h2>
+            <h2 className="text-3xl font-bold text-blue-500 mt-4">
+              Full Stack Developer
+            </h2>
             <p className="mt-6 text-lg leading-8 text-zinc-400">
-              A passionate developer with expertise in JavaScript, Python, ReactJS, and various frameworks. Committed to
-              creating efficient, user-focused web applications and contributing to open-source projects.
+              Experienced full-stack developer skilled in JavaScript/TypeScript,
+              Node.js, React.js and Python, with expertise in optimizing performance,
+              unifying complex systems, and integrating AI/LLM technologies,
+              including OpenAI GPT and Anthropic Claude APIs. Passionate about
+              improving key performance metrics and mentoring junior engineers.
             </p>
             <div className="mt-10 flex gap-4">
               <Link
@@ -65,6 +73,5 @@ export function Hero() {
       </div>
       <BounceArrow />
     </section>
-  )
+  );
 }
-

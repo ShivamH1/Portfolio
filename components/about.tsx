@@ -1,21 +1,24 @@
-"use client"
+"use client";
 
-import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, MapPin, Info } from "lucide-react"
-import { motion } from "framer-motion"
+import { Card, CardContent } from "@/components/ui/card";
+import { Mail, Phone, MapPin, Info } from "lucide-react";
+import { motion } from "framer-motion";
 
 const contactInfo = [
-  { icon: <Mail className="h-5 w-5" />, text: "shivamhonrao.sae.comp@gmail.com" },
+  {
+    icon: <Mail className="h-5 w-5" />,
+    text: "shivamhonrao.sae.comp@gmail.com",
+  },
   { icon: <Phone className="h-5 w-5" />, text: "7498481659" },
   { icon: <MapPin className="h-5 w-5" />, text: "Pune, India" },
-]
+];
 
 const quickFacts = [
   "Full Stack Developer",
+  "AI/LLM Enthusiast",
   "Open Source Contributor",
-  "UI/UX Enthusiast",
-  "Performance Optimization Expert",
-]
+  "Life is too short for boring code",
+];
 
 export function About() {
   return (
@@ -36,13 +39,14 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-foreground/80">
-              As a Full Stack Developer, I have a solid background in designing and developing web applications. My
-              expertise includes JavaScript, Python, ReactJS, and various frameworks.
+              As a full-stack developer, I specialize in building end-to-end web
+              applications with a focus on performance and user experience. My
+              expertise in JavaScript/TypeScript, Node.js, and Python, combined
+              with hands-on experience in React, Redux, and Next.js, allows me
+              to tackle complex challenges and deliver robust solutions.
             </p>
             <p className="mt-4 text-foreground/80">
-              I am passionate about open-source projects and improving user experience through efficient code. I am
-              committed to continuous learning, enhancing code performance, and leading full-stack application
-              development.
+              I am passionate about open-source projects, continuous learning, and enhancing code performance and user experience through efficient code.
             </p>
             <div className="mt-6 space-y-4">
               {contactInfo.map((info, index) => (
@@ -87,6 +91,5 @@ export function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

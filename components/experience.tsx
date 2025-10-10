@@ -1,38 +1,33 @@
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [
   {
-    title: "Frontend Engineer",
-    company: "miniOrange",
-    period: "September 2024 - Present",
+    title: "Software Engineer",
+    company: "miniOrange (Pune, India)",
+    period: "Sep 2024 – Present",
     responsibilities: [
-      "Spearheaded front-end development for a web agency product, achieving a 20% improvement in page load speed and a 15% increase in user engagement. Integrated RTK Query for effective handling of cache and API responses.",
-      "Collaborated with design and backend teams, contributing to a 40% decrease in development time for new feature implementation.",
-      "Integrated WordPress Marketplace for efficient plugin management; merged web pages and created reusable React components to enhance maintainability.",
-      "Engineered a dedicated page for agency plugin installation providing seamless auto-installation and nuanced manual guidance using WordPress credentials.",
+      "Led a full-stack initiative to unify the company’s Data Loss Prevention (DLP) and Mobile Device Management (MDM) platforms into a single streamlined solution, enhancing functionality and maintainability.",
+      "Enhanced user authentication security by developing an OTP-based signup flow and enforcing login rate limiting with smart CAPTCHA challenges.",
+      "Mentored and guided junior developers and interns on modern React and TypeScript best practices, improving team productivity and code quality.",
+      "Spearheaded front-end development for a new Web Agency product using React, achieving a 20% faster page load and 15% higher user engagement through performance optimizations.",
+      "Integrated Redux Toolkit Query (RTK Query) for efficient API data fetching and caching, reducing duplicate network calls and simplifying state management.",
+      "Refactored the React codebase with reusable component libraries and TypeScript types, cutting feature development time by 40%.",
+      "Built a WordPress admin dashboard for security and maintenance (backups, firewall, access logs), and automated plugin management (auto-installation and marketplace integration) to streamline site administration.",
+      "Developed a React-based login flow for an Identity Provider product, modernizing the user interface and improving overall UX.",
     ],
   },
   {
-    title: "SDE",
-    company: "Bluestock Fintech",
-    period: "June 2024 - July 2024",
+    title: "Software Development Engineer Intern",
+    company: "Bluestock Fintech (India)",
+    period: "Jun 2024 – Jul 2024",
     responsibilities: [
-      "Designed and implemented a feature for the company's main product, reducing user response time by 30% using Python and React.",
-      "Developed Real-Time IPO Data Feed (B2B): Provided real-time data on upcoming IPOs, including pricing, timelines, and financial information.",
-      "Participated in code reviews, ensuring adherence to best practices and enhanced user experience by developing intuitive UI Components.",
+      "Developed a full-stack feature (Python backend, React frontend) that improved application response time by 30%, enhancing the real-time performance of financial dashboards.",
+      "Implemented live IPO and startup news feeds for B2B clients, fetching and displaying real-time financial data to keep users informed.",
+      "Participated in code reviews and collaborated on UI enhancements, contributing to a more intuitive and polished product interface.",
+      "Utilized Git for version control and collaborated with a team of developers using Agile methodologies, ensuring timely delivery of features.",
     ],
   },
-  {
-    title: "Machine Learning Intern",
-    company: "Sync Intern",
-    period: "March 2023 - May 2024",
-    responsibilities: [
-      "Developed and deployed a machine learning model that increased predictive accuracy by 25% using Python, TensorFlow, and sci-kit-learn.",
-      "Developed polished visualizations to share the results of data analyses and ran statistical analysis within the software to process large datasets.",
-      "Applied loss functions and variance explanation techniques to compare performance metrics.",
-    ],
-  },
-]
+];
 
 export function Experience() {
   return (
@@ -69,6 +64,5 @@ export function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
