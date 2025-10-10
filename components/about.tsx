@@ -13,8 +13,8 @@ const contactInfo = [
 const quickFacts = [
   "Full Stack Developer",
   "Open Source Contributor",
-  "UI/UX Enthusiast",
-  "Performance Optimization Expert",
+  "AI/LLM Enthusiast",
+  "Performance Optimizer",
 ]
 
 export function About() {
@@ -36,13 +36,10 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-foreground/80">
-              As a Full Stack Developer, I have a solid background in designing and developing web applications. My
-              expertise includes JavaScript, Python, ReactJS, and various frameworks.
+              As a full-stack developer, I specialize in building end-to-end web applications with a focus on performance and user experience. My expertise in JavaScript/TypeScript, Node.js, and Python, combined with hands-on experience in React, Redux, and Next.js, allows me to tackle complex challenges and deliver robust solutions.
             </p>
             <p className="mt-4 text-foreground/80">
-              I am passionate about open-source projects and improving user experience through efficient code. I am
-              committed to continuous learning, enhancing code performance, and leading full-stack application
-              development.
+              I am passionate about integrating AI/LLM technologies into my work and have recently prototyped features using the OpenAI GPT and Anthropic Claude APIs. I thrive on owning product features from concept to deployment, continuously seeking to improve performance metrics and mentor junior engineers to elevate our team's capabilities.
             </p>
             <div className="mt-6 space-y-4">
               {contactInfo.map((info, index) => (

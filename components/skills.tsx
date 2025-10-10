@@ -12,17 +12,17 @@ const skillCategories = [
   {
     title: "Libraries/Frameworks",
     icon: <Library className="w-5 h-5 text-primary" />,
-    skills: ["ReactJS", "NodeJS", "ExpressJS", "NextJS", "Tailwind CSS", "Bootstrap", "GSAP", "Locomotive"],
+    skills: ["ReactJS", "NodeJS", "ExpressJS", "NextJS", "Tailwind CSS", "Bootstrap", "GSAP", "Locomotive", "Redux", "Zustand", "WebSockets", "Prisma ORM", "REST API", "GraphQL", "OAuth", "JWT"],
   },
   {
     title: "Tools/Platforms",
     icon: <Grid3X3 className="w-5 h-5 text-primary" />,
-    skills: ["Git", "VS Code", "Bash", "Terminal", "Eclipse", "GitHub"],
+    skills: ["Git", "VS Code", "Bash", "Terminal", "Eclipse", "GitHub", "Docker", "Vitest", "Postman", "OpenAI API", "Anthropic Claude"],
   },
   {
     title: "Databases",
     icon: <Database className="w-5 h-5 text-primary" />,
-    skills: ["MongoDB", "MySQL", "Postgres"],
+    skills: ["MongoDB", "MySQL", "Postgres", "Redis"],
   },
 ]
 
