@@ -14,8 +14,7 @@ export function Hero() {
             </h1>
             <h2 className="text-3xl font-bold text-blue-500 mt-4">Full Stack Developer</h2>
             <p className="mt-6 text-lg leading-8 text-zinc-400">
-              A passionate developer with expertise in JavaScript, Python, ReactJS, and various frameworks. Committed to
-              creating efficient, user-focused web applications and contributing to open-source projects.
+              Energetic full-stack developer proficient in JavaScript/TypeScript, Node.Js, and Python, specializing in building end-to-end web applications. Experienced with React, Redux, Node.js (Express), and Next.js, and skilled at optimizing performance and unifying complex systems. Passionate about integrating AI/LLM technologies – recently prototyped features using OpenAI GPT and Anthropic Claude APIs with streaming outputs. Strong track record of owning product features from concept through deployment, improving key performance metrics, and mentoring junior engineers to elevate team capabilities.
             </p>
             <div className="mt-10 flex gap-4">
               <Link

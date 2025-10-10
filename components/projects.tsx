@@ -33,6 +33,46 @@ const projects = [
     ],
     github: "#",
   },
+  {
+    title: "X-Draw",
+    description: "A real-time collaborative drawing application built with Next.js, TypeScript, and WebSocket.",
+    details: [
+      "Real-time collaboration with multiple drawing tools",
+      "Secure user authentication with JWT tokens",
+      "Persistent storage for all drawings",
+    ],
+    github: "https://github.com/ShivamH1/x-draw",
+  },
+  {
+    title: "QuizApp",
+    description: "A full-stack quiz application built with React, Express, and PostgreSQL.",
+    details: [
+      "Multiple quiz categories with real-time timer",
+      "Admin panel for full CRUD operations on quizzes and questions",
+      "Efficient state management with Zustand",
+    ],
+    github: "https://github.com/ShivamH1/QuizApp",
+  },
+  {
+    title: "DropBy",
+    description: "A ride-sharing and delivery platform with real-time tracking and fare calculation.",
+    details: [
+      "User and driver registration with vehicle management",
+      "Real-time communication with Socket.io",
+      "Smart fare calculation based on distance and time",
+    ],
+    github: "https://github.com/ShivamH1/dropBy",
+  },
+  {
+    title: "Wallet-Gen",
+    description: "A cryptocurrency wallet generator and management tool.",
+    details: [
+      "Generate new wallets or import from recovery phrases",
+      "Toggle visibility for sensitive information",
+      "Copy private/public keys and recovery phrases to clipboard",
+    ],
+    github: "https://github.com/ShivamH1/Wallet-Gen",
+  },
 ]
 
 const ProjectCard = ({ project, index }) => {
