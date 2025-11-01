@@ -122,12 +122,6 @@ const ProjectCard = ({ project, index }: { project: any; index: number }) => {
               >
                 <Github className="h-5 w-5" />
               </a>
-              <a
-                href="#"
-                className="text-primary hover:text-primary/80 transition-colors"
-              >
-                <ExternalLink className="h-5 w-5" />
-              </a>
             </div>
           </motion.div>
           <p className="text-foreground/80 mt-2">{project.description}</p>
